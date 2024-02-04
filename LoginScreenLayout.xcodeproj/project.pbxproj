@@ -12,6 +12,7 @@
 		0F389C972B6FC99600BD1F28 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F389C962B6FC99600BD1F28 /* AuthViewController.swift */; };
 		0F389C9C2B6FC99700BD1F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F389C9B2B6FC99700BD1F28 /* Assets.xcassets */; };
 		0F389C9F2B6FC99700BD1F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F389C9D2B6FC99700BD1F28 /* LaunchScreen.storyboard */; };
+		0F5C5F1F2B6FD27800CB783F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C5F1E2B6FD27800CB783F /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0F389C9B2B6FC99700BD1F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F389C9E2B6FC99700BD1F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F389CA02B6FC99700BD1F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F5C5F1E2B6FD27800CB783F /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		0F389C912B6FC99600BD1F28 /* LoginScreenLayout */ = {
 			isa = PBXGroup;
 			children = (
+				0F5C5F1B2B6FD1CF00CB783F /* Extensions */,
 				0F5C5F122B6FC9DC00CB783F /* App */,
 				0F5C5F132B6FC9E100CB783F /* Sources */,
 				0F5C5F142B6FC9E900CB783F /* Resources */,
@@ -86,6 +89,14 @@
 				0F389CA02B6FC99700BD1F28 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		0F5C5F1B2B6FD1CF00CB783F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0F5C5F1E2B6FD27800CB783F /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			files = (
 				0F389C972B6FC99600BD1F28 /* AuthViewController.swift in Sources */,
 				0F389C932B6FC99600BD1F28 /* AppDelegate.swift in Sources */,
+				0F5C5F1F2B6FD27800CB783F /* UIView+Extensions.swift in Sources */,
 				0F389C952B6FC99600BD1F28 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
