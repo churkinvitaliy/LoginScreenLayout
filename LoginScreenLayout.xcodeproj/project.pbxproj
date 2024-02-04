@@ -13,6 +13,7 @@
 		0F389C9C2B6FC99700BD1F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F389C9B2B6FC99700BD1F28 /* Assets.xcassets */; };
 		0F389C9F2B6FC99700BD1F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F389C9D2B6FC99700BD1F28 /* LaunchScreen.storyboard */; };
 		0F5C5F1F2B6FD27800CB783F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C5F1E2B6FD27800CB783F /* UIView+Extensions.swift */; };
+		0F5C5F212B6FD2B300CB783F /* UITextFiled+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C5F202B6FD2B300CB783F /* UITextFiled+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0F389C9E2B6FC99700BD1F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F389CA02B6FC99700BD1F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F5C5F1E2B6FD27800CB783F /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		0F5C5F202B6FD2B300CB783F /* UITextFiled+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextFiled+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				0F5C5F1E2B6FD27800CB783F /* UIView+Extensions.swift */,
+				0F5C5F202B6FD2B300CB783F /* UITextFiled+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5C5F212B6FD2B300CB783F /* UITextFiled+Extensions.swift in Sources */,
 				0F389C972B6FC99600BD1F28 /* AuthViewController.swift in Sources */,
 				0F389C932B6FC99600BD1F28 /* AppDelegate.swift in Sources */,
 				0F5C5F1F2B6FD27800CB783F /* UIView+Extensions.swift in Sources */,
